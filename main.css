@@ -363,14 +363,16 @@ img.img100 {width:100%;max-width:1200px;}
 #footer .line {width:100%; height:1px; background-color:#555; margin-top:30px;}
 
 /* 추가된 카톡채널, 유튜브 */
-#board_page {width:100%; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-#board_page .left, #board_page .right {width:70%; margin:2%; border-radius:40px; box-shadow: 0 0 10px rgba(0,0,0,.3); text-align: center; padding:100px 0px 100px; position:relative;}
+#board_page {background: url(../images/bg_board.jpg) no-repeat right top/cover; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+#board_page .left, #board_page .right {width:40%; margin:2%; border-radius:40px; box-shadow: 0 0 10px rgba(0,0,0,.3); text-align: center; padding:100px 0px 100px; position:relative;}
 #board_page .left {background:#ffc902; transition: all .3s; cursor: pointer;}
 #board_page .left:hover {background:#f7de01;}
 #board_page .right {background:#d31417;; transition: all .3s; cursor: pointer;}
 #board_page .right:hover {background:#ff3434;}
+/* #board_page {padding-top:20px;} */
 #board_page h5 {font-size:29px; font-weight:500; margin:15px 0 5px;}
 #board_page h4 a {color:#fff; display:block; width:100%;}
+/* #board_page h4 a:hover {text-decoration: underline;} */
 #board_page .right h5 { padding:3px 8px; display:inline-block;}
 #board_page .left h4, #board_page .right h4 {color:#fff; font-size:27px; font-weight:600; position:absolute; bottom:35px; left:50%; transform: translateX(-50%); }
 #board_page .left a {display:block;}
